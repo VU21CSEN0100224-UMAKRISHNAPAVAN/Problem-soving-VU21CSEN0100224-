@@ -5,14 +5,14 @@ int main()
 {
     int a;
     
-    printf("to find the even numbers");
+    printf("to find the even numbers \n");
     for(a=1;a<=20;a++)
     {
         if(a%2==0)
-        printf("odd\n%d",a);
+        printf("even\n%d",a);
         else
         
-        printf("even\n%d",a);
+        printf("odd\n%d",a);
     }
 
     return 0;
