@@ -7,7 +7,7 @@ int main()
     scanf("%f",&d);
     scanf("%f",&s);
     t=d/s;
-    printf("%f",d);
+    printf("%f",t);
 
     return 0;
 }
