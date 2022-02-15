@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+union data{
+    int i;
+    float f;
+    char str[15];
+};
+int main(){
+    union data data;
+    data.i=15;
+    printf("data.i:%d\n",data.i);
+    data.f=225;
+    printf("data.f:%f\n",data.f);
+    strcpy(data.str,"c programing");
+    printf("data.str:%s\n",data.str);
+    return 0;
+}
